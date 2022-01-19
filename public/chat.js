@@ -1,6 +1,6 @@
 const room = window.location.pathname.replace(/\//g,'')
 
-const socket = io(`http://localhost:3000/${room}`)
+const socket = io(`https://projects-chat1-portfolio.herokuapp.com/${room}`)
 
 let user = null
 
